@@ -2,7 +2,7 @@
 - Update your system first: 
 ```shell
 sudo apt-get update
-sudo apt-get install mariadb
+sudo apt-get install mariadb-server mariadb-client
 ```
 
 - Mariadb is a dropin replacement for MySQL. The differences are minimal, and most of the commands can be used interchangeably.
