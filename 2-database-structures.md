@@ -35,13 +35,13 @@
 ## Some basic operatins
 - Create a database:
 ```shell
-CREATE DATABASE registration IF NOT EXISTS;
+CREATE DATABASE IF NOT EXISTS registration;
 ```
 This creates a new database called _registration_ only if there is no such database already.
 
 - Delete a database
 ```shell
-DROP DATABASE registration IF EXISTS;
+DROP DATABASE IF EXISTS registration;
 ```
 This deletes the _registration_ database if there is such database already.
 
@@ -55,7 +55,7 @@ Try running this immediately after dropping the database and see what happens.
 ## working with tables
 - Create a table: 
   ```shell 
-  CREATE TABLE user(
+  CREATE TABLE IF NOT EXISTS user(
     user_id INT AUTO_INCREMENT PRIMARY KEY,
     first_name VARCHAR(40) NOT NULL,
     last_name VARCHAR(40) NOT NULL,
@@ -68,7 +68,7 @@ Try running this immediately after dropping the database and see what happens.
   - **`user_id`** is set as the primary key and increases by one every time a new user is registered.
 - Delete a table:
   ```shell
-  DROP TABLE user IF EXISTS;
+  DROP TABLE IF EXISTS user;
   ```
 
 - Add a new column:
