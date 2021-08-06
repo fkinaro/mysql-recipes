@@ -1,7 +1,7 @@
 # Database Structures
 
 - What is a relational database: A collection of logically ordered data.
-- Relational Database Management System:
+- Relational Database Management System: The software used to manage databases.
 - Table: Represents an entity type. 
 - Row: Represents an entity.
 - Column: Represents attributes/characteristics.
