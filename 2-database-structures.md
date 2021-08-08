@@ -66,6 +66,7 @@ Try running this immediately after dropping the database and see what happens.
   - This creates a table to store user details. The SQL keywords are in uppercase; they define requirements that the data must meet.
 
   - **`user_id`** is set as the primary key and increases by one every time a new user is registered.
+  - NOT NULL forces MySQL to raise an error when you try to enter empty values. 
 - Delete a table:
   ```shell
   DROP TABLE IF EXISTS user;
