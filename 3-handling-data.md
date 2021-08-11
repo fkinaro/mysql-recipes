@@ -46,3 +46,5 @@ DELETE FROM user WHERE id=4;
 ```shell
 DELETE FROM user WHERE username LIKE 'kina%';
 ```
+
+## 6. Working with joins and subqueries.
