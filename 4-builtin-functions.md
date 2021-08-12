@@ -1,4 +1,17 @@
 ## 1. String functions
+- Formatting
+  - Concatenating
+  - Setting case and quotes
+  - Trimming and padding
+- Extracting text
+- Searching strings
+  - Finding a substring
+  - String lengths
+  - Comparing and searching
+  - Replacing & inserting into other strings
+- Converting string types
+- Compressing strings
+
 ### Concatenating strings
 - Use the ```CONCAT()``` function. Example:
     ```mysql
